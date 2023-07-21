@@ -8,14 +8,14 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.springmvc.dao.EmpDao;
+import com.springmvc.dao.EmployeeDaoJDBCTemplate;
 import com.springmvc.entity.Employee;
 
 @Controller
 public class HomeController {
 
 	@Autowired
-	private EmpDao dao;
+	private EmployeeDaoJDBCTemplate dao;
 
 	// Public URL for index page
 	@RequestMapping("/")

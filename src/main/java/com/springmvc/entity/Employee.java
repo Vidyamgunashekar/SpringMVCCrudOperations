@@ -29,4 +29,16 @@ public class Employee {
 		return sal;
 	}
 
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public void setSal(int sal) {
+		this.sal = sal;
+	}
+
 }
